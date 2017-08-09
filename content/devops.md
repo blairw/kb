@@ -12,6 +12,20 @@ For cross-platform (i.e. not tied to either [Mac](?mac) or [Windows](?windows)) 
 
 No sensible DevOps environment is complete without some sort of bash terminal. Just on Windows you need to install Cygwin.
 
+Useful commands:
+
+- Search and destroy all instances of a file (or search string for file) - e.g. delete all instances of the [Mac](?mac) `.DS_Store` file:
+
+    ```
+    find . -type f -name ".DS_Store" -exec rm {} \;
+    ```
+
+    So you might as well also kill `Thumbs.db` from Windows XP:
+
+    ```
+    find . -type f -name "Thumbs.db" -exec rm {} \;
+    ```
+
 ### Pretty PS1
 
 **PS1** (said to stand for **Prompt String 1**) is the string that appears before every typed command.

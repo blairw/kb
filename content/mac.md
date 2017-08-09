@@ -6,8 +6,6 @@ placing: 500
 
 # Mac
 
-See also: [Nix](?nix).
-
 ## Useful App Store apps
 
 - **BetterTouchTool**, for proper window snapping like you'd get in Windows 7+
