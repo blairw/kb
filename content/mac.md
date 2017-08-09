@@ -6,6 +6,8 @@ placing: 0500
 
 ## Mac
 
+See also: [Nix](?nix).
+
 ### Useful App Store apps
 
 - **BetterTouchTool**, for proper window snapping like you'd get in Windows 7+
@@ -13,7 +15,7 @@ placing: 0500
 
 ### FTP server
 
-To start the server:
+To **start** the server:
 
 ```
 sudo -s launchctl load -w /System/Library/LaunchDaemons/ftp.plist
@@ -23,6 +25,6 @@ Username and password are your MacOS login and password, with equivalent privile
 
 To **stop** the server:
 
-```
+```bash
 sudo launchctl unload /System/Library/LaunchDaemons/ftp.plist
 ```
