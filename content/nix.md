@@ -4,6 +4,6 @@ title: Linux
 placing: 0600
 ---
 
-## Linux
+# Linux
 
 For Linux implementation of standard UNIX/bash stuff. Windows (Cygwin) implementation documented at [Windows](?windows), Mac implementation documented at [Mac](?mac).

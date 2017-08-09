@@ -4,20 +4,20 @@ title: Mac
 placing: 0500
 ---
 
-## Mac
+# Mac
 
 See also: [Nix](?nix).
 
-### Useful App Store apps
+## Useful App Store apps
 
 - **BetterTouchTool**, for proper window snapping like you'd get in Windows 7+
 - **iStat Menus**, for super neat system monitoring in the menu bar
 
-### HTTP server
+## HTTP server
 
 
 
-### FTP server
+## FTP server
 
 Adapted from [OzzyCzech's documentation](https://github.com/OzzyCzech/blog.omdesign.cz/blob/master/content/posts/run-ftp-server-on-mac-os-x.md).
 

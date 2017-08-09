@@ -4,13 +4,13 @@ show_in_header_nav: true
 placing: 0200
 ---
 
-## DevOps
+# DevOps
 
 For cross-platform (i.e. not tied to either [Mac](?mac) or [Windows](?windows)) dev ops stuff.
 
-### bash
+## bash
 
-#### Pretty PS1
+### Pretty PS1
 
 **PS1** (said to stand for **Prompt String 1**) is the string that appears before every typed command.
 
@@ -24,4 +24,4 @@ Example:
 
 ![ps1-demo.png](%base_url%/assets/images/ps1-demo.png)
 
-### git
+## git
