@@ -1,1 +1,1 @@
-rsync -avz --delete /Users/blair/00blair-harajuku/gitrepos/kb/ /Library/WebServer/Documents/kb-rsync
+rsync -avz --delete /Users/blair/00blair-harajuku/gitrepos/techbook/ /Library/WebServer/Documents/techbook-rsync
