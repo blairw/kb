@@ -11,6 +11,8 @@ social:
     - title: Join us on Freenode IRC Webchat
       url: https://webchat.freenode.net/?channels=%23picocms
       icon: chat
+show_in_header_nav: true
+placing: 0100
 ---
 
 ## Welcome to Pico
