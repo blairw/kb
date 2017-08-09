@@ -8,4 +8,4 @@ placing: 0100
 
 Hello.
 
-All the source code is managed at github.
+All the source code is managed at the [GitHub project](https://github.com/blairw/techbook).
