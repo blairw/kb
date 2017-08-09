@@ -10,6 +10,8 @@ For cross-platform (i.e. not tied to either [Mac](?mac) or [Windows](?windows)) 
 
 ## bash
 
+No sensible DevOps environment is complete without some sort of bash terminal. Just on Windows you need to install Cygwin.
+
 ### Pretty PS1
 
 **PS1** (said to stand for **Prompt String 1**) is the string that appears before every typed command.
