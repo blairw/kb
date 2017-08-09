@@ -12,7 +12,7 @@ For cross-platform (i.e. not tied to either [Mac](?mac) or [Windows](?windows)) 
 
 No sensible DevOps environment is complete without some sort of bash terminal. Just on Windows you need to install Cygwin.
 
-Useful commands:
+### Useful Commands
 
 - Search and destroy all instances of a file (or search string for file) - e.g. delete all instances of the [Mac](?mac) `.DS_Store` file:
 
