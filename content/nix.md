@@ -1,11 +1,9 @@
 ---
 show_in_header_nav: true
-title: Nix
+title: Linux
 placing: 0600
 ---
 
-## Nix
+## Linux
 
-For Linux and Unix stuff.
-
-![ps1-demo.png](%base_url%/assets/images/ps1-demo.png)
+For Linux implementation of standard UNIX/bash stuff. Windows (Cygwin) implementation documented at [Windows](?windows), Mac implementation documented at [Mac](?mac).
