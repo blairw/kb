@@ -1,7 +1,7 @@
 ---
 show_in_header_nav: true
 title: Linux
-placing: 0600
+placing: 600
 ---
 
 # Linux

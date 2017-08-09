@@ -1,7 +1,7 @@
 ---
 show_in_header_nav: true
 title: Mac
-placing: 0500
+placing: 500
 ---
 
 # Mac
