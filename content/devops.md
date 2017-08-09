@@ -1,5 +1,5 @@
 ---
-Title: Home
+Title: DevOps
 show_in_header_nav: true
 placing: 0200
 ---
