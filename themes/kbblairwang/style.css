@@ -4,11 +4,19 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 50;
+}
+
 #content {
     max-width: 1000px;
     margin: 0 auto;
     padding-left: 20px;
     padding-right: 20px;
+    padding-top: 100px;
 }
 
 h2, h3, h4, h5, h6 {

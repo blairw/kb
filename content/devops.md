@@ -40,4 +40,34 @@ Example:
 
 ![ps1-demo.png](%base_url%/assets/images/ps1-demo.png)
 
+## aria2c
+
+It's like `wget` (download stuff from the internet) but vastly superior.
+
+Availability:
+
+- [Linux](?linux) - yes, using package manager
+- [Mac](?mac) - yes, using Homebrew
+- [Windows](?windows) - yes, using Cygwin
+
+Usage:
+
+```bash
+aria2c <switches> <file>
+```
+
+Switches:
+
+- `ftp-proxy` - This is required when you can only connect to the server through a proxy server or VPN. Example:
+
+    ```
+    --ftp-proxy=i.wish.i.had.a.proxy.server.blairwang.id.au:8080
+    ```
+
+- `load-cookies` - This loads cookies from a web browser like Firefox - very handy if you're downloading from a site that uses cookies to authenticate a restricted download.
+
+    ```
+    --load-cookies="/Users/wblair/Library/Application Support/Firefox/Profiles/if9f1yrl.default/cookies.sqlite"
+    ```
+
 ## git

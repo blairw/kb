@@ -1,7 +1,7 @@
 ---
 show_in_header_nav: true
 title: Windows
-placing: 1000
+placing: 200
 ---
 
 # Windows
