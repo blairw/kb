@@ -2,4 +2,4 @@
 
 ---
 
- *   ![City of Helsinki](%base_url%/assets/slider/uh.jpg)
+ *   ![City of Helsinki](%base_url%/assets/slider/helsinki.jpg)
