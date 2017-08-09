@@ -26,7 +26,9 @@
 /*
  * THEME
  */
-// $config['theme'] = 'default';                // Set the theme (defaults to "default")
+$config['theme'] = 'Travelify';
+$config['site_subtitle'] = 'Another Pico CMS Site';
+$config['site_copyright'] = 'Your Name Here';
 // $config['twig_config'] = array(              // Twig settings
 //     'cache' => false,                        // To enable Twig caching change this to a path to a writable directory
 //     'autoescape' => false,                   // Auto-escape Twig vars
