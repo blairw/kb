@@ -5,10 +5,18 @@
     padding-right: 20px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
     padding: 0.5em;
 }
 
 h2 {
-    background-color: rgba(138,160,179, 0.1);
+    background-color: rgba(77,109,139, 0.2);
+}
+
+h3 {
+    background-color: rgba(138,160,179, 0.2);
+}
+
+h4 {
+    border-bottom: 1px dotted rgb(77,109,139)
 }
