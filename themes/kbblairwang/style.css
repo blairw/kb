@@ -1,7 +1,24 @@
-@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Dosis:400,700');
+@import url('https://fonts.googleapis.com/css?family=PT+Mono:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i');
+
+a:hover {
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
 
 body {
-    font-family: 'Work Sans', sans-serif;
+    font-size: 13pt;
+    line-height: 1.75;
+    font-family: 'PT Serif', serif;
+}
+
+code {
+    font-family: "PT Mono", monospace;
+}
+
+h1, h2, h3, h4, h5, h6, nav, footer {
+    font-family: 'Dosis', sans-serif;
 }
 
 header {
@@ -11,16 +28,29 @@ header {
     z-index: 50;
 }
 
+footer {
+    margin-top: 10em;
+    background-color: rgb(240,240,240);
+    padding: 2em;
+}
+
 #content {
     max-width: 1000px;
     margin: 0 auto;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 2em;
+    padding-right: 2em;
     padding-top: 100px;
+}
+
+h1 {
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 h2, h3, h4, h5, h6 {
     padding: 0.5em;
+    margin-top: 2em;
 }
 
 h2 {

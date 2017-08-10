@@ -1,8 +1,8 @@
 ---
-show_in_header_nav: true
 title: Web
-placing: 200
 ---
+
+*&larr; back to [Targets](?targets)*
 
 # Web
 
