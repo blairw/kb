@@ -7,5 +7,5 @@ placing: 200
 # Targets
 
 - Android
-- [iOS](?targets/ios)
-- [Web Frontend](?targets/web-frontend)
+- [iOS](%base_url%/?targets/ios)
+- [Web Frontend](%base_url%/?targets/web-frontend)
