@@ -2,7 +2,7 @@
 title: Windows
 ---
 
-*&larr; back to [DevOps](?devops)*
+*&larr; back to [DevOps](%base_url%/?devops)*
 
 # Windows
 

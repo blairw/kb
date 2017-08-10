@@ -3,7 +3,7 @@ Title: MacBook Pro (13-inch, 2016)
 show_in_header_nav: false
 ---
 
-*&larr; back to [Hardware](?hardware)*
+*&larr; back to [Hardware](%base_url%/?hardware)*
 
 # Apple MacBook Pro (13-inch, 2016)
 

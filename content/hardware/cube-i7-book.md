@@ -3,7 +3,7 @@ Title: Cube i7 Book
 show_in_header_nav: false
 ---
 
-*&larr; back to [Hardware](?hardware)*
+*&larr; back to [Hardware](%base_url%/?hardware)*
 
 # Cube i7 Book
 

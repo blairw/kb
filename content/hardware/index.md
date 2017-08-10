@@ -8,6 +8,6 @@ placing: 200
 
 Coming soon:
 
-- [Apple MacBook Pro (13-inch, 2016)](?hardware/apple-mbp-13-2016)
-- [Cube i7 Book](?hardware/cube-i7-book)
+- [Apple MacBook Pro (13-inch, 2016)](%base_url%/?hardware/apple-mbp-13-2016)
+- [Cube i7 Book](%base_url%/?hardware/cube-i7-book)
 - Intel NUC

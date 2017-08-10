@@ -2,7 +2,7 @@
 Title: bash
 ---
 
-*&larr; back to [DevOps](?devops)*
+*&larr; back to [DevOps](%base_url%/?devops)*
 
 # bash
 
@@ -14,9 +14,9 @@ It's like `wget` (download stuff from the internet) but vastly superior.
 
 Availability:
 
-- [Linux](?devops/linux) - yes, using your package manager
-- [Mac](?devops/mac) - yes, using Homebrew
-- [Windows](?devops/windows) - yes, using Cygwin
+- [Linux](%base_url%/?devops/linux) - yes, using your package manager
+- [Mac](%base_url%/?devops/mac) - yes, using Homebrew
+- [Windows](%base_url%/?devops/windows) - yes, using Cygwin
 
 Usage:
 

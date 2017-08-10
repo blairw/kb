@@ -2,7 +2,7 @@
 title: iOS
 ---
 
-*&larr; back to [Targets](?targets)*
+*&larr; back to [Targets](%base_url%/?targets)*
 
 # iOS
 

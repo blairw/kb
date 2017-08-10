@@ -2,7 +2,7 @@
 title: Linux
 ---
 
-*&larr; back to [DevOps](?devops)*
+*&larr; back to [DevOps](%base_url%/?devops)*
 
 # Linux
 
