@@ -41,4 +41,10 @@ Nifty little 10.6-inch Core M3-6Y30 tablet PC with compatible Wacom stylus. See 
 
 Poorly documented by the vendor so here we go:
 
-- Wacom FEEL driver
+- Manual driver installations:
+    _ Intel AVStream Camera 2500
+    - [Wacom FEEL driver](http://us.wacom.com/en/feeldriver/)
+
+- Automatically installed by Windows 10
+    - Intel Dual Band Wireless-AC 3165
+    - Intel Graphics 515
