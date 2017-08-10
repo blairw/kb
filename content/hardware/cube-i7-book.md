@@ -14,7 +14,7 @@ Nifty little 10.6-inch Core M3-6Y30 tablet PC with compatible Wacom stylus. See 
 - Yes, the vendor is actually called Cube
     - Legally, the [Shenzhen Alldo Cube Technology and Science Co., Ltd](http://www.51cube.com/en/About.asp?ID=1)
     - In Chinese, 「酷比魔方」 (this is what you see in the BIOS/EFI boot screen)
-- Yes, the model is actually "i7" even though the processor is not, in fact, an Intel Core i7, but instead, an Intel Core m3
+- Yes, the model is actually "i7" even though the CPU is not, in fact, an Intel Core i7, but instead, an Intel Core m3
 
 ## Procurement
 
@@ -42,7 +42,7 @@ Nifty little 10.6-inch Core M3-6Y30 tablet PC with compatible Wacom stylus. See 
 Poorly documented by the vendor so here we go:
 
 - Manual driver installations:
-    _ Intel AVStream Camera 2500
+    - Intel AVStream Camera 2500
     - [Wacom FEEL driver](http://us.wacom.com/en/feeldriver/)
 
 - Automatically installed by Windows 10
