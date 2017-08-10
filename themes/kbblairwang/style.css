@@ -72,3 +72,7 @@ h4 {
 p {
     margin: 0 0 1em;
 }
+
+img {
+    max-width: 100%;
+}
