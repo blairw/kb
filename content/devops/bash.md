@@ -38,6 +38,12 @@ Switches:
     --load-cookies="/Users/wblair/Library/Application Support/Firefox/Profiles/if9f1yrl.default/cookies.sqlite"
     ```
 
+## sed
+
+```bash
+sed -i -e 's/^.*static let TAG.*$//g' *.swift
+```
+
 ## find
 
 - Search and destroy all instances of a file (or search string for file) - e.g. delete all instances of the [Mac](?mac) `.DS_Store` file:

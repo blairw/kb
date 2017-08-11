@@ -6,6 +6,19 @@ title: Web
 
 # Web
 
+## Font-Awesome
+
+Amazing set of scalable icons.
+
+One of the most useful things is being able to stack icons (cf. [examples page](http://fontawesome.io/examples/)):
+
+```html
+<span class="fa-stack fa-lg">
+  <i class="fa fa-circle fa-stack-2x"></i>
+  <i class="fa fa-flag fa-stack-1x fa-inverse"></i>
+</span>
+```
+
 ## Bootstrap
 
 ### Overview
