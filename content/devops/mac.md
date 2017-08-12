@@ -13,25 +13,37 @@ title: Mac
 
 ## HTTP server
 
-Adapted from [osxdaily.com documentation](http://osxdaily.com/2012/09/02/start-apache-web-server-mac-os-x/).
+See also: [apache](%base_url%/?devops/apache).
+This section adapted from [osxdaily.com documentation](http://osxdaily.com/2012/09/02/start-apache-web-server-mac-os-x/).
 
-1. Open the config file (where `riversong` is your username)
+1. Go edit the Apache HTTP config file as the root user (otherwise this gets really annoying):
 
     ```bash
-    sudo nano /etc/apache2/users/riversong.conf
+    sudo nano /etc/apache2/httpd.conf
     ```
 
-2. Set the above file to have the following contents:
+<br />
+2. This configuration file has a bunch of `<Directory>` tags. You'll probably want the one for the root folder
+   when accessing `localhost` through a web browser. This is `/Library/WebServer/Documents`. So you will want
+   the following to appear for the `<Directory "/Library/WebServer/Documents">` block:
 
     ```xml
-    <Directory "/Users/riversong/Sites/">
-        Options Indexes Multiviews
-        AllowOverride AuthConfig Limit
-        Order allow,deny
-        Allow from all
+    <Directory "/Library/WebServer/Documents">
+        (...)
+        Options FollowSymLinks Multiviews
+        MultiviewsMatch Any
+        (...)
+        AllowOverride all
+        (...)
+        Require all granted
     </Directory>
     ```
 
+    Notes:
+    1. `(...)` denotes other fluff that we don't care about for this particular thing.
+    2. `AllowOverride all` enables `.htaccess` to work.
+
+<br />
 3. Whenever you need, use one the following three commands to start and stop the server (self-explanatory): 
 
     ```bash
@@ -40,7 +52,15 @@ Adapted from [osxdaily.com documentation](http://osxdaily.com/2012/09/02/start-a
     sudo apachectl restart
     ```
 
-Files are located in `/Library/WebServer/Documents/`.
+<br />
+4. If you need to inspect the log file, it is located at `/var/log/apache2/error_log`:
+
+    ```bash
+    tail -n50 /var/log/apache2/error_log
+    ```
+
+<br />
+Again, just to remind you, hosted files are located in `/Library/WebServer/Documents/`.
 
 ## FTP server
 
