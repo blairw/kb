@@ -38,6 +38,16 @@ Switches:
     --load-cookies="/Users/wblair/Library/Application Support/Firefox/Profiles/if9f1yrl.default/cookies.sqlite"
     ```
 
+## find
+
+### Get full paths for all files in a folder
+
+Adapted from [Matthew Scharley](https://stackoverflow.com/questions/246215/how-can-i-list-files-with-their-absolute-path-in-linux)
+
+```
+find `pwd` -type f -name "*.jpg"
+```
+
 ## sed
 
 ```bash
