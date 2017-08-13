@@ -62,6 +62,10 @@ This section adapted from [osxdaily.com documentation](http://osxdaily.com/2012/
 <br />
 Again, just to remind you, hosted files are located in `/Library/WebServer/Documents/`.
 
+See also:
+- [Local SSL websites on macOS Sierra](https://gist.github.com/jonathantneal/774e4b0b3d4d739cbc53) (for HTTPS)
+- [Installing PHP 7 on OS X Yosemite](http://w3bsmart.blogspot.com.au/2015/08/installing-php-7-on-os-x-yosemite.html) (works for Sierra too)
+
 ## FTP server
 
 Adapted from [OzzyCzech's documentation](https://github.com/OzzyCzech/blog.omdesign.cz/blob/master/content/posts/run-ftp-server-on-mac-os-x.md).
